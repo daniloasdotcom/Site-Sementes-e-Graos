@@ -1,0 +1,41 @@
+- label: Home
+  route: /
+
+- label: Blog
+  route: /blog
+
+- label: Cronograma Nutrição
+  route: /cronogramanutrição
+
+- label: Lista Nutrição
+  route: /listapresencanutricao
+
+- label: Conteudo Nutrição
+  route: /conteudonutricao
+
+- label: Cronograma AG1AG2
+  route: /cronogramaag1ag2
+
+- label: Conteudo Agronomia
+  route: /conteudoagronomia
+
+- label: Quiz
+  route: /quiz
+
+- label: Como Estudo
+  route: /comoestudo
+
+# Item 09
+- label: Bio Memory
+  route: /biomemoryapp
+
+# Item 10
+- label: Conteudo FA
+  route: /conteudofa01
+
+# Item 11
+- label: Lista BL
+  route: /listapresencabl01
+  
+# - label: Portfolio
+#   route: /port

@@ -1,0 +1,164 @@
+body {
+    background-image: url('../assets/images/fundo.jpg');
+    background-attachment: fixed;
+    /* background-image: linear-gradient(90deg, #3f3f3f, #2c2c2c, #191919);*/
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+header {
+    background-image: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.linkmenu {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.linkmenu:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav>a {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav a:active {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav a:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.myposts {
+    list-style-type: none;
+    /* Remover marcadores de lista */
+    padding: 0;
+}
+
+.myposts li {
+    margin-bottom: 20px;
+    /* Espaçamento entre as postagens */
+    line-height: 1.5;
+    /* Espaçamento de 1,5 entre as linhas */
+    text-align: justify;
+    /* Alinhar o texto justificado */
+}
+
+.myposts a {
+    color: black;
+    /* Cor dos links */
+    text-decoration: underline;
+    /* Remover sublinhado dos links */
+    font-weight: bold;
+    /* Texto em negrito */
+    font-size: 24px;
+    /* Tamanho da fonte do título*/
+}
+
+.myposts a:hover {
+    text-decoration: underline;
+    /* Adicionar sublinhado ao passar o mouse */
+}
+
+/* Estilos para a data e trecho */
+.permalink p {
+    margin: 5px 0;
+}
+
+/* Ajustar a cor do texto e da data para branco */
+.myposts p {
+    color: black;
+    font-size: 18px;
+}
+
+.post-title-container {
+    background-color: white;
+    /* Cor de fundo azul */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 20px;
+    /* Borda arredondada */
+    border-color: #fff;
+    display: inline-block;
+    /* Torna o contêiner apenas tão largo quanto o conteúdo */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Estilo para o título do post */
+.post-title {
+    color: #fff;
+    /* Cor do texto branca */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+    font-weight: bold;
+    /* Texto em negrito */
+    font-size: 18px;
+    /* Tamanho da fonte */
+}
+
+/* Efeito de hover para o título do post */
+.post-title:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+    color: blue;
+}
+
+.myposts .read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(167, 151, 13);
+    /* Cor de fundo do botão */
+    color: black;
+    /* Cor do texto do botão */
+    text-decoration: none;
+    /* Remova sublinhado */
+    border-radius: 5px;
+    /* Borda arredondada */
+    margin-top: 10px;
+    /* Espaçamento acima do botão */
+}
+
+.read-more>a {
+    color: #fff;
+}
+
+.read-more:hover {
+    background-color: rgb(73, 67, 67);
+    /* Cor de fundo ao passar o mouse */
+    color: white;
+    /* Cor do texto do botão */
+}

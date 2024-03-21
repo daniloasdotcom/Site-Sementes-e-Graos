@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <link href="{{"css/post.css" | relative_url}}" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <main style="background-color: white;">
+        <article class="post">
+            <div style="background-color: #415449; padding: 20px; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
+                <img src="{{ page.imagem }}" alt="Texto Alternativo da Imagem" width="140" height="140" style="margin-right: 10px; margin-bottom: 10px; align-self: flex-start;">
+                <p class="post-date" style="color: white; align-self: flex-start;">{{ page.author }}</p>
+                <h1 style="margin: 0; color: white;">{{ page.title }}</h1>
+              </div>
+            <div class="post-content">
+                {{ content }}
+                <p class="post-date">-----------------</p>
+                <p class="post-date"><b>Sobre o autor</b></p>
+                <p class="post-date"><i>{{ page.about }}</i></p>
+            </div>
+        </article>
+    </main>
+
+    {% include footer.html %}
+
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>
