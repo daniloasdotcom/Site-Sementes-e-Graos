@@ -4,7 +4,6 @@ body {
     background-image: url('../assets/images/fundo.jpg');
     background-attachment: fixed;
     background-size: cover;
-    /* background-image: linear-gradient(90deg, #3f3f3f, #2c2c2c, #191919);*/
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
 }
@@ -129,7 +128,7 @@ li {
 }
 
 .linkmenu:hover {
-    background-color: #5c799b;
+    background-color: #A98607;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -149,27 +148,27 @@ li {
 }
 
 .fa-linkedin {
-    color: white;
+    color: black;
 }
 
 .fa-youtube {
-    color: white;
+    color: black;
 }
 
 .fa-instagram {
-    color: white;
+    color: black;
 }
 
 .fa-github {
-    color: white;
+    color: black;
 }
 
 .fa-globe {
-    color: white;
+    color: black;
 }
 
 .fa-google-play {
-    color: white;
+    color: black;
 }
 
 nav>a {
@@ -190,7 +189,7 @@ nav a:active {
 }
 
 nav a:hover {
-    background-color: #5c799b;
+    background-color: #A98607;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -218,10 +217,9 @@ main {
 }
 
 .collapsiblemenu {
-    background-color: #5c799b80;
+    background-color: #A98607;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    color: black;
     cursor: pointer;
     padding: 0px;
     width: 100%;
@@ -229,7 +227,7 @@ main {
     text-align: center;
     outline: none;
     font-size: 18px;
-    color: white;
+    color: black;
     line-height: 2.0;
 }
 
@@ -251,7 +249,6 @@ main {
     text-align: left;
     outline: none;
     font-size: 18px;
-    color: black;
     line-height: 2.0;
     border-top-left-radius: 10px; /* Arredonda o canto superior esquerdo */
     border-top-right-radius: 10px; /* Arredonda o canto superior direito */
@@ -291,7 +288,7 @@ main {
 }
 
 footer {
-    background-color: #415449;
+    background-color: #A98607;
     text-align: center;
     align-items: center;
     color: #fff;
