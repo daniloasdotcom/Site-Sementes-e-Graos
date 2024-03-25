@@ -128,7 +128,7 @@ li {
 }
 
 .linkmenu:hover {
-    background-color: #A98607;
+    background-color: white;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -189,7 +189,7 @@ nav a:active {
 }
 
 nav a:hover {
-    background-color: #A98607;
+    background-color: white;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -217,7 +217,7 @@ main {
 }
 
 .collapsiblemenu {
-    background-color: #A98607;
+    background-color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     cursor: pointer;
@@ -233,7 +233,7 @@ main {
 
 .active,
 .collapsible:hover {
-    background-color: #5c799b;
+    background-color: #A98607;
 }
 
 /* proporção 16:9 */
@@ -256,8 +256,8 @@ main {
 
 .active,
 .collapsible-conteudo:hover {
-    background-color: #5c799b;
-    color: white;
+    background-color: #A98607;
+    color: black;
 }
 
 .content {
