@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-    background-image: url('../assets/images/fundo.jpg');
+    
+    background-color: #49426e;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
@@ -128,7 +129,7 @@ li {
 }
 
 .linkmenu:hover {
-    background-color: white;
+    background-color: #f1c38e;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -148,27 +149,27 @@ li {
 }
 
 .fa-linkedin {
-    color: black;
+    color: white;
 }
 
 .fa-youtube {
-    color: black;
+    color: white;
 }
 
 .fa-instagram {
-    color: black;
+    color: white;
 }
 
 .fa-github {
-    color: black;
+    color: white;
 }
 
 .fa-globe {
-    color: black;
+    color: white;
 }
 
 .fa-google-play {
-    color: black;
+    color: white;
 }
 
 nav>a {
@@ -217,7 +218,7 @@ main {
 }
 
 .collapsiblemenu {
-    background-color: white;
+    background-color: #f1c38e;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     cursor: pointer;
@@ -256,7 +257,7 @@ main {
 
 .active,
 .collapsible-conteudo:hover {
-    background-color: #A98607;
+    background-color: white;
     color: black;
 }
 
@@ -288,7 +289,7 @@ main {
 }
 
 footer {
-    background-color: #A98607;
+    background-color: #332f55;
     text-align: center;
     align-items: center;
     color: #fff;
